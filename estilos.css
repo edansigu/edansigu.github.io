@@ -1,0 +1,54 @@
+p{
+    color:blue;
+}
+h1{color: aqua;}
+
+#sexy {color:darkturquoise;}
+h1{font-size: 100px;}
+.clase1{color: chartreuse;
+background-color: coral;}
+body {
+background-image: 123jpg; 
+}
+   
+.contenedor{ color: red;
+width: 1000px;
+height: 500px;
+margin-left: 100px;
+padding: 10px;
+border: 50px solid green;}
+.contenido{
+width: 100px;
+height: 200px;}
+.contenedor2{display: flex;
+            justify-content: space-around}
+
+.item {width: 50%;
+height: 200px;
+background-color: brown;}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.fondo{background-color: chartreuse;}
+.grid-container {display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    .grid-item{ background-color: lawngreen;
+    padding: 20px;}
+   
+   
+
+    .sour-gummy-test {
+      font-family: "Sour Gummy", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+    @media (max-width: 600px){
+    .contenedor{flex-direction: column;}}
+
